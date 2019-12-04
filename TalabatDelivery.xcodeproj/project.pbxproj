@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846C5E8D2398219700F965D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C5E8C2398219700F965D6 /* AppDelegate.swift */; };
+		846C5E8F2398219700F965D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C5E8E2398219700F965D6 /* SceneDelegate.swift */; };
+		846C5E912398219700F965D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C5E902398219700F965D6 /* ViewController.swift */; };
+		846C5E942398219700F965D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846C5E922398219700F965D6 /* Main.storyboard */; };
+		846C5E962398219900F965D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846C5E952398219900F965D6 /* Assets.xcassets */; };
+		846C5E992398219900F965D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846C5E972398219900F965D6 /* LaunchScreen.storyboard */; };
+		846C5EA42398219900F965D6 /* TalabatDeliveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C5EA32398219900F965D6 /* TalabatDeliveryTests.swift */; };
+		846C5EAF2398219900F965D6 /* TalabatDeliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C5EAE2398219900F965D6 /* TalabatDeliveryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846C5EA02398219900F965D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846C5E812398219700F965D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846C5E882398219700F965D6;
+			remoteInfo = TalabatDelivery;
+		};
+		846C5EAB2398219900F965D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846C5E812398219700F965D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846C5E882398219700F965D6;
+			remoteInfo = TalabatDelivery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846C5E892398219700F965D6 /* TalabatDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalabatDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846C5E8C2398219700F965D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		846C5E8E2398219700F965D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		846C5E902398219700F965D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		846C5E932398219700F965D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		846C5E952398219900F965D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846C5E982398219900F965D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846C5E9A2398219900F965D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846C5E9F2398219900F965D6 /* TalabatDeliveryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalabatDeliveryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846C5EA32398219900F965D6 /* TalabatDeliveryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalabatDeliveryTests.swift; sourceTree = "<group>"; };
+		846C5EA52398219900F965D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846C5EAA2398219900F965D6 /* TalabatDeliveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalabatDeliveryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846C5EAE2398219900F965D6 /* TalabatDeliveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalabatDeliveryUITests.swift; sourceTree = "<group>"; };
+		846C5EB02398219900F965D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846C5E862398219700F965D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846C5E9C2398219900F965D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846C5EA72398219900F965D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846C5E802398219700F965D6 = {
+			isa = PBXGroup;
+			children = (
+				846C5E8B2398219700F965D6 /* TalabatDelivery */,
+				846C5EA22398219900F965D6 /* TalabatDeliveryTests */,
+				846C5EAD2398219900F965D6 /* TalabatDeliveryUITests */,
+				846C5E8A2398219700F965D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846C5E8A2398219700F965D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846C5E892398219700F965D6 /* TalabatDelivery.app */,
+				846C5E9F2398219900F965D6 /* TalabatDeliveryTests.xctest */,
+				846C5EAA2398219900F965D6 /* TalabatDeliveryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846C5E8B2398219700F965D6 /* TalabatDelivery */ = {
+			isa = PBXGroup;
+			children = (
+				846C5E8C2398219700F965D6 /* AppDelegate.swift */,
+				846C5E8E2398219700F965D6 /* SceneDelegate.swift */,
+				846C5E902398219700F965D6 /* ViewController.swift */,
+				846C5E922398219700F965D6 /* Main.storyboard */,
+				846C5E952398219900F965D6 /* Assets.xcassets */,
+				846C5E972398219900F965D6 /* LaunchScreen.storyboard */,
+				846C5E9A2398219900F965D6 /* Info.plist */,
+			);
+			path = TalabatDelivery;
+			sourceTree = "<group>";
+		};
+		846C5EA22398219900F965D6 /* TalabatDeliveryTests */ = {
+			isa = PBXGroup;
+			children = (
+				846C5EA32398219900F965D6 /* TalabatDeliveryTests.swift */,
+				846C5EA52398219900F965D6 /* Info.plist */,
+			);
+			path = TalabatDeliveryTests;
+			sourceTree = "<group>";
+		};
+		846C5EAD2398219900F965D6 /* TalabatDeliveryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				846C5EAE2398219900F965D6 /* TalabatDeliveryUITests.swift */,
+				846C5EB02398219900F965D6 /* Info.plist */,
+			);
+			path = TalabatDeliveryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846C5E882398219700F965D6 /* TalabatDelivery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846C5EB32398219900F965D6 /* Build configuration list for PBXNativeTarget "TalabatDelivery" */;
+			buildPhases = (
+				846C5E852398219700F965D6 /* Sources */,
+				846C5E862398219700F965D6 /* Frameworks */,
+				846C5E872398219700F965D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalabatDelivery;
+			productName = TalabatDelivery;
+			productReference = 846C5E892398219700F965D6 /* TalabatDelivery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846C5E9E2398219900F965D6 /* TalabatDeliveryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846C5EB62398219900F965D6 /* Build configuration list for PBXNativeTarget "TalabatDeliveryTests" */;
+			buildPhases = (
+				846C5E9B2398219900F965D6 /* Sources */,
+				846C5E9C2398219900F965D6 /* Frameworks */,
+				846C5E9D2398219900F965D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846C5EA12398219900F965D6 /* PBXTargetDependency */,
+			);
+			name = TalabatDeliveryTests;
+			productName = TalabatDeliveryTests;
+			productReference = 846C5E9F2398219900F965D6 /* TalabatDeliveryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		846C5EA92398219900F965D6 /* TalabatDeliveryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846C5EB92398219900F965D6 /* Build configuration list for PBXNativeTarget "TalabatDeliveryUITests" */;
+			buildPhases = (
+				846C5EA62398219900F965D6 /* Sources */,
+				846C5EA72398219900F965D6 /* Frameworks */,
+				846C5EA82398219900F965D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846C5EAC2398219900F965D6 /* PBXTargetDependency */,
+			);
+			name = TalabatDeliveryUITests;
+			productName = TalabatDeliveryUITests;
+			productReference = 846C5EAA2398219900F965D6 /* TalabatDeliveryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846C5E812398219700F965D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Mahmoud Salah";
+				TargetAttributes = {
+					846C5E882398219700F965D6 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					846C5E9E2398219900F965D6 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 846C5E882398219700F965D6;
+					};
+					846C5EA92398219900F965D6 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 846C5E882398219700F965D6;
+					};
+				};
+			};
+			buildConfigurationList = 846C5E842398219700F965D6 /* Build configuration list for PBXProject "TalabatDelivery" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846C5E802398219700F965D6;
+			productRefGroup = 846C5E8A2398219700F965D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846C5E882398219700F965D6 /* TalabatDelivery */,
+				846C5E9E2398219900F965D6 /* TalabatDeliveryTests */,
+				846C5EA92398219900F965D6 /* TalabatDeliveryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846C5E872398219700F965D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846C5E992398219900F965D6 /* LaunchScreen.storyboard in Resources */,
+				846C5E962398219900F965D6 /* Assets.xcassets in Resources */,
+				846C5E942398219700F965D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846C5E9D2398219900F965D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846C5EA82398219900F965D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846C5E852398219700F965D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846C5E912398219700F965D6 /* ViewController.swift in Sources */,
+				846C5E8D2398219700F965D6 /* AppDelegate.swift in Sources */,
+				846C5E8F2398219700F965D6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846C5E9B2398219900F965D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846C5EA42398219900F965D6 /* TalabatDeliveryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846C5EA62398219900F965D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846C5EAF2398219900F965D6 /* TalabatDeliveryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846C5EA12398219900F965D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846C5E882398219700F965D6 /* TalabatDelivery */;
+			targetProxy = 846C5EA02398219900F965D6 /* PBXContainerItemProxy */;
+		};
+		846C5EAC2398219900F965D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846C5E882398219700F965D6 /* TalabatDelivery */;
+			targetProxy = 846C5EAB2398219900F965D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		846C5E922398219700F965D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846C5E932398219700F965D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		846C5E972398219900F965D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846C5E982398219900F965D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846C5EB12398219900F965D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		846C5EB22398219900F965D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846C5EB42398219900F965D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DKEX8NYQS;
+				INFOPLIST_FILE = TalabatDelivery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MS.TalabatDelivery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		846C5EB52398219900F965D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DKEX8NYQS;
+				INFOPLIST_FILE = TalabatDelivery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MS.TalabatDelivery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		846C5EB72398219900F965D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DKEX8NYQS;
+				INFOPLIST_FILE = TalabatDeliveryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MS.TalabatDeliveryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalabatDelivery.app/TalabatDelivery";
+			};
+			name = Debug;
+		};
+		846C5EB82398219900F965D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DKEX8NYQS;
+				INFOPLIST_FILE = TalabatDeliveryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MS.TalabatDeliveryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalabatDelivery.app/TalabatDelivery";
+			};
+			name = Release;
+		};
+		846C5EBA2398219900F965D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DKEX8NYQS;
+				INFOPLIST_FILE = TalabatDeliveryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MS.TalabatDeliveryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TalabatDelivery;
+			};
+			name = Debug;
+		};
+		846C5EBB2398219900F965D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DKEX8NYQS;
+				INFOPLIST_FILE = TalabatDeliveryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MS.TalabatDeliveryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TalabatDelivery;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846C5E842398219700F965D6 /* Build configuration list for PBXProject "TalabatDelivery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846C5EB12398219900F965D6 /* Debug */,
+				846C5EB22398219900F965D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846C5EB32398219900F965D6 /* Build configuration list for PBXNativeTarget "TalabatDelivery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846C5EB42398219900F965D6 /* Debug */,
+				846C5EB52398219900F965D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846C5EB62398219900F965D6 /* Build configuration list for PBXNativeTarget "TalabatDeliveryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846C5EB72398219900F965D6 /* Debug */,
+				846C5EB82398219900F965D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846C5EB92398219900F965D6 /* Build configuration list for PBXNativeTarget "TalabatDeliveryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846C5EBA2398219900F965D6 /* Debug */,
+				846C5EBB2398219900F965D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846C5E812398219700F965D6 /* Project object */;
+}
